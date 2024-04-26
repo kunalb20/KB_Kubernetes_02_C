@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('Checkout') {
+        stage("Checkout") {
             steps {
                 git 'https://github.com/kunalb20/KB_Kubernetes_02_C.git'
             }
